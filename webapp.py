@@ -14,7 +14,7 @@ October 2009, February 2015
 """
 
 import socket
-import sumador
+import suma
 import hola
 import aleat
 
@@ -104,7 +104,7 @@ class webApp:
 if __name__ == "__main__":
     anApp = app()
     otherApp = app()
-    appSuma = sumador.suma()
+    appSuma = suma.suma()
     appHola = hola.hola()
     appAdios = hola.adios()
     appAleat = aleat.aleat()
